@@ -1,0 +1,142 @@
+.subscribe {
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left-part {
+      width: 40%;
+    }
+
+    &__right-part {
+      width: 40%;
+    }
+  }
+
+  margin: 100px 20px;
+  padding: 20px;
+  border-radius: 16px;
+  height: max-content;
+  
+  background: url('../../images/bg-elements.png');
+  background-color: #F5F5F7;
+
+  &__right-part {
+    display: flex;
+  }
+
+  &__right-part :first-child {
+    margin-right: 10px;
+  }
+  
+  &__ofer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.12em;
+    color: #FA9531;
+  }
+
+  &__title {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #050505;
+  }
+
+  &__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &__button {
+    background: linear-gradient(90deg, #FFBD39 0%, #FA9531 100%, #FA9531 100%);
+    border-radius: 6px;
+    border: none;
+
+    height: 52px;
+    width: 184px;
+
+    color: #fff;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 425px;
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 5px 10px 90px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    padding: 28px 24px 20px 26px;
+    margin-top: 20px;
+
+    @media (min-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  &__card-title {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #050505;
+  }
+
+  &__card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #65676B;
+  }
+
+  &__card-price {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #050505;
+  }
+
+  &__card-button {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #050505;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    background-color: #fff;
+
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+
+    @media (min-width: 1024px) {
+      width: 100%;
+    }
+  }
+}

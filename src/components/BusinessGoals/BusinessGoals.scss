@@ -1,0 +1,151 @@
+.goals {
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left-part {
+      width: 40%;
+    }
+
+    &__right-part {
+      width: 40%
+    }
+  }
+
+  height: max-content;
+  background-color: #F5F5F7;
+  background-image: url('../../images/bg-elements.png');
+  border-radius: 16px;
+  margin: 100px 20px;
+  padding: 20px;
+
+  &__offer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.12em;
+
+    color: #FA9531;
+  }
+
+  &__title {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+
+    color: #050505;
+  }
+
+  &__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #050505;
+  }
+
+  &__image-block {
+    position: relative;
+    height: 390px;
+    background-image: url('../../images/Elements.svg');
+    background-repeat: no-repeat;
+  }
+
+  &__graph-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    height: 306px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+  }
+
+  &__graph-image {
+    width: 100%;
+    padding: 40px 10px;
+
+    @media (min-width: 1024px) {
+      padding: 10px;
+    }
+  }
+
+  &__sale-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 160px;
+    margin-top: 42px;
+    background: #FFF;
+    box-shadow: 0px 1px 20px rgba(250, 149, 49, 0.15);
+    border-radius: 16px;
+
+    background-image: url('../../images/Element.png');
+    background-repeat: no-repeat;
+    background-position-x: -20%;
+
+    @media (min-width: 1024px) {
+      background-position-x: 0;
+    }
+  }
+
+  &__sale-amount {
+    display: inline-block;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 68px;
+
+    color: #FA9531;
+  }
+
+  &__sale-title {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #050505;
+  }
+
+  &__sale-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+
+    color: #050505;
+  }
+
+  &__sale-ofer {
+    display: inline-block;
+  }
+
+  &__button {
+    margin-top: 40px;
+
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    height: 55px;
+    width: 100%;
+
+    background: linear-gradient(90deg, #FFBD39 0%, #FA9531 100%, #FA9531 100%);
+    border-radius: 6px;
+    border: none;
+
+  }
+}
